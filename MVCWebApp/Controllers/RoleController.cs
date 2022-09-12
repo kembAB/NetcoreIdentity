@@ -47,7 +47,7 @@ namespace MVCWebApp.Controllers
             if (result.Succeeded)
                 return RedirectToAction(nameof(Index));
 
-            //if reached-> error -> create error message to viewmodel
+        
             AddToRoleViewModel model = new AddToRoleViewModel();
             model.Roles = new SelectList(_roleManager.Roles, "Name", "Name");
             model.Users = new SelectList(_userManager.Users, "Id", "UserName");
@@ -91,7 +91,7 @@ namespace MVCWebApp.Controllers
                 }
             }
 
-            //todo-> if reached: display errormessage (role already exixts?
+           
             ViewData["errorMessage"] = errorMessage;
 
             return View();
