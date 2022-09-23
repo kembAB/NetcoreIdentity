@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace MVCWebApp.Controllers
 {
+    //Role controller controlles autorization 
     [Authorize(Roles = "admin")]
     public class RoleController : Controller
     {
