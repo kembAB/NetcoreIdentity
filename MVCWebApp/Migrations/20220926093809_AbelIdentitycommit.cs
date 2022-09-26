@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MVCWebApp.Migrations
 {
-    public partial class AbelIdentity : Migration
+    public partial class AbelIdentitycommit : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -249,8 +249,8 @@ namespace MVCWebApp.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "3abf64a3-30d0-40ec-bcc8-8c4afe820b60", "c9e4253f-fdab-4d94-94f4-ecdb35c0b967", "admin", "ADMIN" },
-                    { "8bcab47d-ceee-4f35-b3d9-b9e79d418ce6", "4f13d543-5d28-442c-af34-afbe015e1f48", "user", "USER" }
+                    { "7b21057d-3999-4d47-a281-233a9c4155d6", "3d7edfe8-3021-41b4-b135-451928fb26fc", "admin", "ADMIN" },
+                    { "b795e532-093c-4fcb-90dd-ac29a82ad936", "ae4edce5-5e92-45e3-8bed-3be633c8b90a", "user", "USER" }
                 });
 
             migrationBuilder.InsertData(
@@ -258,8 +258,8 @@ namespace MVCWebApp.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "BirthDate", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "915a4f22-df2e-4059-b14b-f40c3d7a95fc", 0, new DateTime(1980, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "9aabcd33-7712-4b4b-81c0-ea41c4392c35", "admin@adminmvc.com", false, "Admin", "Adminsson", false, null, "ADMIN@ADMINMVC.COM", "ADMIN@ADMINMVC.COM", "AQAAAAEAACcQAAAAEGeCH4nWCTSfBvRx/85elDlhVRvuoOSvjZC8mZYpmMgm8CY2On+3cEsob8WNbYat6w==", null, false, "74ca8caa-c864-4cd9-8de7-988be18449e1", false, "admin@adminmvc.com" },
-                    { "8b0a69f6-8640-4740-bee2-cc9529d19a49", 0, new DateTime(1990, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified), "3763e49b-0d95-4ffa-b3bc-326c5f1b7b84", "user@usermvc.com", false, "Adam", "Adamsson", false, null, "USER@USERMVC.COM", "USER@USERMVC.COM", "AQAAAAEAACcQAAAAECvxcPH91wkbH78Llklcru+Ypsimv/QPJe/xRsoccz7W+opjPQrw1IES3F66WX60Cg==", null, false, "4d0ccba2-b212-4f99-b6d3-6ecae270ce93", false, "user@usermvc.com" }
+                    { "e4a6506e-9f29-4d05-8f44-93f3fa2c7ffa", 0, new DateTime(1980, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "c2776599-e8bf-4569-8e21-26a6dee2a38c", "admin@adminmvc.com", false, "Admin", "Adminsson", false, null, "ADMIN@ADMINMVC.COM", "ADMIN@ADMINMVC.COM", "AQAAAAEAACcQAAAAEBNgZhfjBo5VS4lVbekTLYILhQ5Ixy7tP050KpmGqWnanl+fmCvZJ+jHksZ31lRq8A==", null, false, "e4e5e6e7-bdd5-4429-b922-c4d3b6263c89", false, "admin@adminmvc.com" },
+                    { "beb5a905-8645-41b8-86f7-7de855713270", 0, new DateTime(1990, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified), "9947c366-0eff-445a-ab7d-54cad41f233e", "user@usermvc.com", false, "Adam", "Adamsson", false, null, "USER@USERMVC.COM", "USER@USERMVC.COM", "AQAAAAEAACcQAAAAENS+CwEhN2Qd4Zy39C2YK4lf47og2E8QOk/oZuQXCT+9rIFa8GtoST6mYBl3hKWKOQ==", null, false, "ef104c8b-47d5-4d5e-bac7-38760ca23c30", false, "user@usermvc.com" }
                 });
 
             migrationBuilder.InsertData(
@@ -287,8 +287,8 @@ namespace MVCWebApp.Migrations
                 columns: new[] { "UserId", "RoleId" },
                 values: new object[,]
                 {
-                    { "915a4f22-df2e-4059-b14b-f40c3d7a95fc", "3abf64a3-30d0-40ec-bcc8-8c4afe820b60" },
-                    { "8b0a69f6-8640-4740-bee2-cc9529d19a49", "8bcab47d-ceee-4f35-b3d9-b9e79d418ce6" }
+                    { "e4a6506e-9f29-4d05-8f44-93f3fa2c7ffa", "7b21057d-3999-4d47-a281-233a9c4155d6" },
+                    { "beb5a905-8645-41b8-86f7-7de855713270", "b795e532-093c-4fcb-90dd-ac29a82ad936" }
                 });
 
             migrationBuilder.InsertData(

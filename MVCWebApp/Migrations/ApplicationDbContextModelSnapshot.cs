@@ -97,10 +97,10 @@ namespace MVCWebApp.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "915a4f22-df2e-4059-b14b-f40c3d7a95fc",
+                            Id = "e4a6506e-9f29-4d05-8f44-93f3fa2c7ffa",
                             AccessFailedCount = 0,
                             BirthDate = new DateTime(1980, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "9aabcd33-7712-4b4b-81c0-ea41c4392c35",
+                            ConcurrencyStamp = "c2776599-e8bf-4569-8e21-26a6dee2a38c",
                             Email = "admin@adminmvc.com",
                             EmailConfirmed = false,
                             FirstName = "Admin",
@@ -108,18 +108,18 @@ namespace MVCWebApp.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMINMVC.COM",
                             NormalizedUserName = "ADMIN@ADMINMVC.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGeCH4nWCTSfBvRx/85elDlhVRvuoOSvjZC8mZYpmMgm8CY2On+3cEsob8WNbYat6w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBNgZhfjBo5VS4lVbekTLYILhQ5Ixy7tP050KpmGqWnanl+fmCvZJ+jHksZ31lRq8A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "74ca8caa-c864-4cd9-8de7-988be18449e1",
+                            SecurityStamp = "e4e5e6e7-bdd5-4429-b922-c4d3b6263c89",
                             TwoFactorEnabled = false,
                             UserName = "admin@adminmvc.com"
                         },
                         new
                         {
-                            Id = "8b0a69f6-8640-4740-bee2-cc9529d19a49",
+                            Id = "beb5a905-8645-41b8-86f7-7de855713270",
                             AccessFailedCount = 0,
                             BirthDate = new DateTime(1990, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "3763e49b-0d95-4ffa-b3bc-326c5f1b7b84",
+                            ConcurrencyStamp = "9947c366-0eff-445a-ab7d-54cad41f233e",
                             Email = "user@usermvc.com",
                             EmailConfirmed = false,
                             FirstName = "Adam",
@@ -127,9 +127,9 @@ namespace MVCWebApp.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@USERMVC.COM",
                             NormalizedUserName = "USER@USERMVC.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAECvxcPH91wkbH78Llklcru+Ypsimv/QPJe/xRsoccz7W+opjPQrw1IES3F66WX60Cg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENS+CwEhN2Qd4Zy39C2YK4lf47og2E8QOk/oZuQXCT+9rIFa8GtoST6mYBl3hKWKOQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "4d0ccba2-b212-4f99-b6d3-6ecae270ce93",
+                            SecurityStamp = "ef104c8b-47d5-4d5e-bac7-38760ca23c30",
                             TwoFactorEnabled = false,
                             UserName = "user@usermvc.com"
                         });
@@ -343,15 +343,15 @@ namespace MVCWebApp.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "3abf64a3-30d0-40ec-bcc8-8c4afe820b60",
-                            ConcurrencyStamp = "c9e4253f-fdab-4d94-94f4-ecdb35c0b967",
+                            Id = "7b21057d-3999-4d47-a281-233a9c4155d6",
+                            ConcurrencyStamp = "3d7edfe8-3021-41b4-b135-451928fb26fc",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "8bcab47d-ceee-4f35-b3d9-b9e79d418ce6",
-                            ConcurrencyStamp = "4f13d543-5d28-442c-af34-afbe015e1f48",
+                            Id = "b795e532-093c-4fcb-90dd-ac29a82ad936",
+                            ConcurrencyStamp = "ae4edce5-5e92-45e3-8bed-3be633c8b90a",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -444,13 +444,13 @@ namespace MVCWebApp.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "915a4f22-df2e-4059-b14b-f40c3d7a95fc",
-                            RoleId = "3abf64a3-30d0-40ec-bcc8-8c4afe820b60"
+                            UserId = "e4a6506e-9f29-4d05-8f44-93f3fa2c7ffa",
+                            RoleId = "7b21057d-3999-4d47-a281-233a9c4155d6"
                         },
                         new
                         {
-                            UserId = "8b0a69f6-8640-4740-bee2-cc9529d19a49",
-                            RoleId = "8bcab47d-ceee-4f35-b3d9-b9e79d418ce6"
+                            UserId = "beb5a905-8645-41b8-86f7-7de855713270",
+                            RoleId = "b795e532-093c-4fcb-90dd-ac29a82ad936"
                         });
                 });
 
