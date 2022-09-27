@@ -25,7 +25,7 @@ namespace MVCWebApp.Data
         public DbSet<City> Cities { get; set; }
         public DbSet<Language> Languages { get; set; }
         public DbSet<PersonLanguage> PersonLanguages { get; set; }
-        public  DbSet<ApplicationUser>  Users { get; set; }
+       public  DbSet<ApplicationUser>  Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

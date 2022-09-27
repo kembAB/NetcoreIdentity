@@ -36,7 +36,7 @@ namespace MVCWebApp
             services.AddDbContext<ApplicationDbContext>(
                 options => options.UseLazyLoadingProxies().
                 UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
+            
             services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
                     .AddDefaultUI()
                     .AddDefaultTokenProviders()
